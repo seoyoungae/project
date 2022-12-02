@@ -1,0 +1,218 @@
+.home {
+    position: relative;
+    top:25px;
+    left:0;
+    z-index: 99;
+    height: 50px;
+    border: 0px solid red;
+    margin: 0px auto;
+}
+.hp_info{
+    display:none;
+}
+nav {
+    height: 50px;
+    margin-top:px;
+    border: 0px solid black;
+}
+
+.menu:hover .sub_menu {
+    height: 0;
+}
+
+nav>div {
+    display: none;
+    margin: 0;
+    cursor: default;
+}
+
+nav>div:hover {
+    border-bottom: 0px;
+}
+
+nav>.menu_m {
+    margin-top:-25px;
+    display: block;
+    display: flex;
+}
+
+.page {
+    left: 10%;
+    width: 80%;
+
+    border: 0px solid black;
+}
+
+.at0>p {
+    width: 100%;
+    height: 50px;
+    border: 0px solid black;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+.at0>.why>img {
+    width: 80%;
+    height: 50%;
+}
+
+.at0>.why>div {
+    width: 80%;
+    height: 50%;
+    border: 0px solid black;
+    margin: 10px auto;
+}
+
+.at0>.why>div>p:nth-child(1) {
+    margin-top: 0px;
+}
+
+.at0>.why>div>p {
+    width: 100%;
+    height: 30%;
+    margin-left: 0px;
+    text-indent: 10px;
+    font-size: 1rem;
+}
+
+.at0>.mem_img {
+    height: 50px;
+    margin: 100px auto;
+}
+
+.at0>.member_info {
+    height: 1000px;
+}
+
+.at0>.member_info>div {
+    height: 10%;
+    display: block;
+    border: 0px solid red;
+}
+.at0>.member_info>div>div{
+    height: 700px;
+}
+.at0>.member_info>div>div>div {
+    text-align: center;
+}
+
+.at0>.member_info>div>p {
+    height: 50%;
+    border: 0px solid black;
+    line-height:50px;
+}
+
+.at0>.member_info>div>p:nth-child(1) {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.at0>.member_info>div>div>.living_point {
+    width: 100%;
+    height: 600px;
+    border: 0px solid black;
+    margin: 0;
+}
+
+.at0>.member_info>div>div>.living_point>li {
+    width: 30%;
+    height: 45%;
+}
+.at0>.member_info>div>div>.living_point>li>div{
+    margin:0;
+    margin-bottom:20px;
+}
+.at0>.member_info>div>div>.living_point>li>div>p {
+    font-size: 0.9rem;
+}
+
+.at0>.member_info>div>div>.living_point>li>div>p:nth-child(1) {
+    font-size: 1rem;
+}
+
+.at1>.grade_box>.grade {
+    width: 25%;
+    height: 400px;
+}
+
+.at1>.grade_box>.grade:nth-child(1) {
+    width: 20%;
+    border-left: 0;
+}
+
+.at1>.grade_box>.grade>li {
+    width: 100%;
+    height: 100px;
+    font-size: 0.8rem;
+    line-height: 100px;
+}
+.at1>.grade_box>.grade:nth-child(1)>li:nth-child(2){
+    line-height:50px;
+}
+.at1>.grade_box>.grade:nth-child(4)>li:nth-child(4){
+    line-height:1.75;
+}
+.at1>.grade_box>.grade:nth-child(4)>li:nth-child(4)>p{
+    margin-top:30px;
+}
+
+.at1>.p_change{
+    height: 700px;
+    margin: 100px auto;
+}
+.at1>.p_change>.p_changeBox {
+    height: 300px;
+    display: block;
+}
+.at1>.p_change>.p_changeBox>div{
+    width: 40%;
+    height: 50%;
+    border: 0px solid black;
+    margin: 0 auto;
+}
+.at1>.p_change>.p_changeBox>div>img{
+    height: 80%;
+}
+.at1>.p_change>.p_changeBox>div>div{
+    height: 100%;
+}
+.at1>.p_change>.p_changeBox>div:nth-child(1),
+.at1>.p_change>.p_changeBox>div:nth-child(3) {
+    margin-top: 0;
+}
+.at1>.p_change>.p_changeBox>.arrow{     height: 10%;
+    line-height: 30px;
+    margin:10px auto;
+    transform: rotate(90deg);
+    text-align: center;
+}
+.at1>.p_change>.p_changeBox>.arrow:nth-child(2) {
+    line-height: 30px;
+}
+.at1>.p_change>.p_changeBox>.arrow>div:nth-child(1){
+    display: none;
+}
+
+.at1>.p_change>.p_changeBox>.exchange>div:nth-child(1){
+    display: none;
+}
+.at1>.p_change>.p_changeBox>.exchange>div>p{
+    margin-bottom: -100px;
+}
+
+.at2>.footer {
+    font-size: 0.7rem;
+}
+
+.at2>.footer>.left {
+    margin-top: 20px;
+}
+
+.at2>.footer>.left>p {
+    line-height: 1.75;
+}
+
+.side_menu_m>ul>li>div>div>a {
+    color: white;
+}

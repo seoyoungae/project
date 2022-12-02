@@ -1,0 +1,94 @@
+.at {
+    width: 100%;
+}
+
+.home {
+    width: 17%;
+}
+
+nav>div {
+    width: 13%;
+}
+
+nav>.sub_menu>ul {
+    width: 13%;
+    margin-right: 0;
+}
+
+nav>.sub_menu>ul:nth-child(1) {
+    margin-left: 2%;
+    font-size: 0.5rem;
+
+}
+
+nav>div:nth-child(6),
+nav>div:nth-child(7),
+nav>div:nth-child(8) {
+    width: 5%;
+}
+
+nav>div:nth-child(6) {
+    margin-left: 14%;
+}
+
+.at0>div>p:nth-child(1) {
+    margin-left: 30px;
+}
+
+.at0>.wrap0>ul {
+    height: 1000px;
+    border: 0px solid black;
+    
+    justify-content: space-around;
+}
+
+.at0>.wrap0>ul>li {
+    width: 45%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+.at0>.wrap1 {
+    width: 90%;
+}
+
+.at0>.wrap1>.infoBox>div {
+    width: 330px;
+    height: 330px;
+    margin-left: 20px;
+
+}
+
+.at0>.wrap1>.infoBox>ul>li>p:nth-child(1) {
+    width: 40%;
+}
+
+.at1 {
+    top: 10px;
+    left: 90%;
+    width: 550px;
+    height: 60px;
+}
+.at1>div{
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.at1>ul {
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.at1>ul>li {
+    width: 100px;
+    height: 60px;
+    margin-right: 10px;
+    line-height: 60px;
+}
+
+.at1>.sideBtn{
+    display: none;
+}

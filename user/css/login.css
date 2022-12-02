@@ -1,0 +1,86 @@
+.sec0 {
+    width: 100%;
+}
+
+.at0 {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.at0>.loginBox {
+    width: 100%;
+    height: 500px;
+    border: 0px solid black;
+}
+
+.at0>.loginBox>div {
+    width: 100%;
+    height: 150px;
+    border: 0px solid black;
+}
+
+.at0>.loginBox>div:nth-child(1) {
+    margin-top: 100px;
+}
+
+.at0>.loginBox>.loginUp>div {
+    width: 40%;
+    /* height:50%; */
+    border:0px solid black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.at0>.loginBox>.loginUp>div:nth-child(1) {
+    height: 30%;
+}
+
+.at0>.loginBox>.loginUp>div:nth-child(2) {
+    height: 50%;
+    margin-top: 20px;
+    background-color: rgb(255, 238, 3);
+    border-bottom: 5px solid rgba(204, 204, 204, 0.749);
+    border-radius: 10px;
+    line-height: 70px;
+    border:0px solid black;
+}
+
+.at0>.loginBox>.loginDown {
+    display: flex;
+    justify-content: center;
+}
+
+.at0>.loginBox>.loginDown>div {
+    width: 25%;
+    height: 70%;
+    border: 0px solid black;
+    font-size:1.3rem;
+    margin-top:20px;
+    text-align: center;
+}
+
+.at0>.loginBox>.loginDown>div>p {
+    width: 100%;
+    height: 50%;
+    border: 0px solid black;
+}
+.at0>.loginBox>.loginDown>div>p>input{
+    width:80%; height:80%;
+}
+.at0>.loginBox>.loginDown>.login {
+    width: 15%;
+    height: 60px;
+    margin-top: 40px;
+    background: #f2f2f2;
+    border-bottom: 5px solid rgba(204, 204, 204, 0.749);
+    border-radius: 10px;
+    line-height: 60px;
+    cursor: pointer;
+}
+.at0>.loginBox>.result{
+    width:30%;
+    height:80px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    text-align: center;
+}

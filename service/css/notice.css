@@ -1,0 +1,97 @@
+.at0 {
+    width: 60%;
+    margin: 0 auto;
+    /* border: 1px solid #ccc; */
+}
+
+.at0>.boardBox {
+    width: 100%;
+    height: 600px;
+    margin: 100px auto;
+    border: 0px solid black;
+}
+
+.at0>.boardBox>.board {
+    width: 100%;
+    height: 70px;
+    border: 0px solid black;
+    border-bottom: 1px solid #f2f2f2;
+    display: flex;
+}
+
+.at0>.boardBox>.board:nth-child(2),
+.at0>.boardBox>.board:nth-child(6),
+.at0>.boardBox>.board:nth-child(10) {
+    background: #f2f2f250;
+}
+
+.at0>.boardBox>.board:nth-child(1) {
+    border-bottom: 1px solid #ccc;
+}
+
+.at0>.boardBox>.board>li {
+    height: 70px;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.at0>.boardBox>.board:hover>li {
+    background: #f2f2f2
+}
+
+.at0>.boardBox>.board>li:nth-child(1) {
+    width: 5%;
+}
+
+.at0>.boardBox>.board>li:nth-child(2) {
+    width: 70%;
+    text-align: left;
+    text-indent: 50px;
+}
+
+.at0>.boardBox>.board:nth-child(1)>li:nth-child(2) {
+    text-align: center;
+}
+
+.at0>.boardBox>.board>li:nth-child(3) {
+    width: 10%;
+}
+
+.at0>.boardBox>.board>li:nth-child(4) {
+    width: 15%;
+    border-right: 0;
+}
+
+.at0>.boardBox>.page_num {
+    width: 20%;
+    height: 50px;
+    border: 0px solid black;
+    display: flex;
+    margin: 20px auto;
+}
+
+.at0>.boardBox>.page_num>li {
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.at0>.boardBox>.page_num>li:hover {
+    border-bottom: 1px solid black;
+}
+
+.at0>.boardBox>.q_text2 {
+    width: 70%;
+    height: 200px;
+    border: 0px solid black;
+    background: #f2f2f29f;
+    margin-left: 5%;
+    display: flex;
+    padding: 50px;
+    line-height: 1.75;
+}

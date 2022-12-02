@@ -1,0 +1,70 @@
+.home {
+    position: relative;
+    top:25px;
+    left:0;
+    z-index: 99;
+    height: 50px;
+    border: 0px solid red;
+    margin: 0px auto;
+}
+.hp_info{
+    display:none;
+}
+nav {
+    height: 50px;
+    margin-top:px;
+    border: 0px solid black;
+}
+
+.menu:hover .sub_menu {
+    height: 0;
+}
+
+nav>div {
+    display: none;
+    margin: 0;
+    cursor: default;
+}
+
+nav>div:hover {
+    border-bottom: 0px;
+}
+
+nav>.menu_m {
+    margin-top:-25px;
+    display: block;
+    display: flex;
+}
+
+
+.at0>.loginBox>.loginUp>div{
+    width:70%;
+}
+.at0>.loginBox>.loginDown>div{
+    width:50%;
+    font-size:1rem;
+}
+.at0>.loginBox>.loginDown>.login{
+    width:20%;
+    margin-top: 30px;
+}
+
+.at0>.loginBox>.result{
+    width:50%;
+}
+
+.at2>.footer {
+    font-size: 0.7rem;
+}
+
+.at2>.footer>.left {
+    margin-top: 20px;
+}
+
+.at2>.footer>.left>p {
+    line-height: 1.75;
+}
+
+.side_menu_m>ul>li>div>div>a {
+    color: white;
+}

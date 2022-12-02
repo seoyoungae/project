@@ -1,0 +1,45 @@
+.at0{
+    width:80%;
+}
+.home {
+    width: 17%;
+}
+
+nav>div {
+    width: 13%;
+}
+
+nav>.sub_menu>ul {
+    width: 13%;
+    margin-right: 0;
+}
+
+nav>.sub_menu>ul:nth-child(1) {
+    margin-left: 2%;
+    font-size: 0.5rem;
+
+}
+
+nav>div:nth-child(6),
+nav>div:nth-child(7),
+nav>div:nth-child(8) {
+    width: 5%;
+}
+
+nav>div:nth-child(6) {
+    margin-left: 14%;
+}
+
+.at0>div>p:nth-child(1) {
+    margin-left: 30px;
+}
+
+.at0>.boardBox>.page_num{
+    width: 40%;
+}
+.at0>.boardBox>.q_text2>.q_img{
+    width:30%;
+    height: 70%;
+    margin-top:20px;
+    margin-left:50px;
+}

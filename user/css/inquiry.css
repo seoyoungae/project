@@ -1,0 +1,136 @@
+.at0 {
+    width: 70%;
+    margin: 50px auto;
+    border: 0px solid blue
+}
+
+.at0>p {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+/* 박스 전체 */
+.at0>.box {
+    width: 80%;
+    height: 650px;
+    border: 0px solid black;
+    margin: 0px auto;
+}
+
+/* 세로로 분류 */
+.at0>.box>ul {
+    width: 100%;
+    height: 750px;
+}
+
+/* 가로로 나눔 */
+.at0>.box>ul>li {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    border: 0 solid black;
+    border-bottom: 1px solid #ccc
+}
+
+/* 문의유형 */
+.at0>.box>ul>li:nth-child(1) {
+    line-height: 100px;
+}
+
+/* 모든 맨 왼쪽 제목 크기 */
+.at0>.box>ul>li>div:nth-child(1) {
+    width: 20%;
+    border: 0px solid blue;
+    font-weight: bold;
+}
+
+/* 둘째줄 크기 */
+
+.at0>.box>ul>li:nth-child(2) {
+    height: 450px;
+    /* line-height: 400px; */
+}
+
+.at0>.box>ul>li:nth-child(2)>div:nth-child(1) {
+    line-height: 400px;
+}
+
+.at0>.box>ul>li:nth-child(2)>div:nth-child(2) {
+    width: 70%;
+    border: 0 px solid green;
+
+}
+
+/* 내용의 입력부분 */
+.at0>.box>ul>li:nth-child(2)>div:nth-child(2)>input {
+    width: 70%;
+    height: 280px;
+    margin-left: -210px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+/* 내용의 첨부파일 부분 */
+.at0>.box>ul>li:nth-child(2)>div:nth-child(2)>div {
+    border: 0px solid blue;
+    height: 100px;
+    text-align: left;
+}
+
+.at0>.box>ul>li:nth-child(2)>div:nth-child(2)>div>p {
+    height: 50%;
+    line-height: 50px;
+    font-size: 0.8rem;
+}
+
+/* 첨부파일 */
+.at0>.box>ul>li:nth-child(2)>div:nth-child(2)>div>p:nth-child(1) {
+    width: 100px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 10px;
+    background: #f2f2f2;
+    font-size: 1rem;
+}
+
+/* 답변등록 */
+.at0>.box>ul>li:nth-child(3) {
+    height: 100px;
+    line-height: 1.75;
+    align-items: center;
+}
+
+.at0>.box>ul>li:nth-child(3)>div:nth-child(2) {
+    text-align: left;
+    line-height: 50px;
+}
+
+/* 버튼 */
+.at0>.btn {
+    width: 30%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    border: 0px solid black;
+}
+
+.at0>.btn>div {
+    width: 45%;
+    line-height: 80px;
+    border: 0px solid blue;
+    border-bottom: 3px solid gray;
+    text-align: center;
+    border-radius: 10px;
+    background: #ccc;
+}
+
+.at0>.btn>div:nth-child(1) {
+    background: rgb(117, 117, 117);
+    color: white;
+}

@@ -1,0 +1,216 @@
+.sec0 {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.at0 {
+    width: 70%;
+    margin: 50px auto;
+
+}
+
+.at0>div {
+    width: 300px;
+    height: 30px;
+    border: 0px solid blue;
+    font-size: 0.8rem;
+    line-height: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.at0>div>div{
+    margin-left:30px;
+}
+.at0>div>.gnb{
+    font-size:1rem;
+    cursor: pointer;
+}
+.at0>div>.gnb>.gnb_menu{
+    width:200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.at0>.wrap0 {
+    width: 100%;
+    height: 100%;
+}
+
+.at0>.wrap0>ul {
+    width: 100%;
+    height: 520px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.at0>.wrap0>ul>li {
+    width: 30%;
+    height: 100%;
+    border: 0px solid blue;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.at0>.wrap0>ul>li>div {
+    width: 80%;
+    height: 40px;
+    border: 0px solid red;
+    line-height: 40px;
+    text-indent: 20px;
+    margin: 0 auto;
+}
+
+.at0>.wrap0>ul>li>.pd_img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+.at0>.wrap0>ul>li>.pd_name {
+    height: 60px;
+    font-size: 1.3rem;
+    line-height: 60px;
+    text-align: center;
+}
+
+.at0>.wrap0>ul>li>.pd_price {
+    text-align: right;
+    font-size:0.9rem;
+    color:rgb(70, 70, 70);
+}
+
+.at0>.wrap1 {
+    width: 100%;
+    height: 100%;
+    border: 0px solid black;
+    background: white;
+}
+
+.at0>.wrap1>.infoBox {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.at0>.wrap1>.infoBox>div {
+    width: 500px;
+    height: 500px;
+    border: 0px solid red;
+}
+
+.at0>.wrap1>.infoBox>div>img {
+    width: 100%;
+}
+
+.at0>.wrap1>.infoBox>ul {
+    width: 50%;
+    height: 600px;
+    border: 0px solid blue;
+}
+
+.at0>.wrap1>.infoBox>ul>li {
+    width: 100%;
+    height: 60px;
+    border: 0px solid black;
+    border-bottom: 1px solid #ccc;
+    text-indent: 30px;
+    line-height: 60px;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+}
+.at0>.wrap1>.infoBox>ul>li>p{
+    height: 60px;
+}
+.at0>.wrap1>.infoBox>ul>li>p:nth-child(1){
+    width:25%;
+}
+.at0>.wrap1>.infoBox>ul>li>input{
+    width:150px;
+    height: 50%;
+    margin: 15px 30px;
+}
+.at0>.wrap1 {
+    display: none;
+}
+
+.btn {
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn>div {
+    width: 40%;
+    border: 0px solid black;
+    text-align: center;
+    text-indent: 0;
+    background-color: rgb(109, 109, 109);
+    color: white;
+    cursor: pointer;
+}
+
+.at1 {
+    position: absolute;
+    top: 50px;
+    left: -150px;
+    width: 250px;
+    height: 300px;
+    border: 0px solid black;
+    transition: all 0.5s;
+    display: flex;
+
+}
+.at1>.more>p{
+    width:100%;
+    height: 100%;
+    font-size:2rem;
+    font-weight: bold;
+}
+.at1>div {
+    width:60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 0px solid black;
+    /* display: none; */
+}
+.at1>ul {
+    width: 150px;
+    height: 300px;
+    text-align: center;
+    border: 0px solid blue;
+    background: #f2f2f2;
+}
+
+.at1>ul>li {
+    width: 150px;
+    height: 25%;
+    line-height: 75px;
+    font-family: 'HallymMjo-Regular';
+font-weight: 400;
+    cursor: pointer;
+}
+
+.at1>p {
+    width: 100px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.at1>.sideBtn {
+    cursor: pointer;
+}
+
+.at1>.leftBtn {
+    display: none;
+}

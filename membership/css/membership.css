@@ -1,0 +1,382 @@
+.sec0 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* 소분류 버튼 박스 */
+.page {
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    background: white;
+    width: 50%;
+    height: 70px;
+    border: 0px solid rgb(100, 100, 100);
+    margin: 50px auto;
+    display: flex;
+}
+
+/* 소분류 버튼 */
+.page>p {
+    width: 33%;
+    height: 100%;
+    border: 1px solid rgb(100, 100, 100);
+    line-height: 70px;
+    text-align: center;
+    font-family: 'HallymMjo-Regular';
+    font-weight : 500;
+}
+
+.page>p:nth-child(1) {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: rgb(100, 100, 100);
+}
+
+.page>p:nth-child(1) a {
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.page>p:nth-child(3) {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* 멤버십 소개 */
+.at0 {
+    width: 70%;
+    margin: 0 auto;
+    border: 0px solid black;
+}
+
+.at0>p:nth-child(1) {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    /* text-indent: 30px; */
+    line-height: 100px;
+    margin: 0 auto;
+    margin-top: 150px;
+    font-size: 1.7rem;
+    font-family: 'HallymMjo-Regular';
+    font-weight : 700;
+}
+
+.at0>p {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+.at0>p:nth-child(3) {
+    margin-bottom: 70px;
+}
+
+.at0>.why {
+    width: 100%;
+    height: 400px;
+    border: 0px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.at0>.why>img {
+    width: 50%;
+    height: 100%;
+}
+
+.at0>.why>div {
+    width: 50%;
+    height: 100%;
+}
+
+.at0>.why>div>p {
+    width: 100%;
+    height: 30%;
+    margin-left: 50px;
+    font-size: 1.3rem;
+    opacity: 0;
+}
+
+.at0>.why>div>p:nth-child(1) {
+    margin-top: 50px;
+}
+
+/* 중간 구분 잎파리 그림 */
+.at0>.mem_img {
+    width: 100%;
+    height: 100px;
+    margin: 150px auto;
+    border: 0px solid black;
+}
+.at0>.mem_img>img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 멤버십 정보 */
+.at0>.member_info {
+    width: 100%;
+    height: 700px;
+    border: 0px solid black;
+    margin: 100px auto;
+}
+
+.at0>.member_info>div {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    line-height: 50px;
+    text-align: center;
+    display: flex;
+    border: 0px solid red
+}
+
+
+.at0>.member_info>div>p:nth-child(1) {
+    width: 100px;
+    height: 50px;
+    border: 0px solid black;
+    border-radius: 20px;
+    background: rgb(17, 75, 17);
+    color: white;
+    margin-right: 50px;
+}
+.at0>.member_info>div:nth-child(2)>div,
+.at0>.member_info>div:nth-child(1)>div{
+    text-align: left;
+}
+
+/* 멤버십 정보> 적립항목 */
+.at0>.member_info>div>div {
+    width: 100%;
+    height: 500px;
+    border: 0px solid black;
+}
+
+.at0>.member_info>div>div>div {
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    border: 0px solid blue;
+}
+
+/* 멤버십 정보> 적립 항복> 생활포인트 적립 */
+.at0>.member_info>div>div>.living_point {
+    width: 100%;
+    height: 400px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.at0>.member_info>div>div>.living_point>li {
+    width: 19%;
+    height: 100%;
+    border: 0px solid blue;
+}
+
+.at0>.member_info>div>div>.living_point>li>div {
+    width: 100%;
+    height: 50%;
+    margin: 20px;
+}
+
+.at0>.member_info>div>div>.living_point>li>div>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.at0>.member_info>div>div>.living_point>li>div>p {
+    line-height: 1.75;
+}
+
+.at0>.member_info>div>div>.living_point>li>div>p:nth-child(1) {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* 멤버십 등급/포인트환전 */
+.at1 {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.at1>.grade_box {
+    width: 100%;
+    height: 500px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.at1>.grade_title {
+    width: 100%;
+    height: 60px;
+    border: 0px solid blue;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2rem;
+    font-family: 'HallymMjo-Regular';
+    font-weight : bold;
+    margin-top: 100px;
+}
+
+.at1>.grade_box>.grade {
+    width: 20%;
+    height: 490px;
+    border: 0px solid blue;
+    border-left: 1px solid white;
+    background: #f2f2f2c5;
+}
+.at1>.grade_box>.grade:nth-child(2)>li:nth-child(3),
+.at1>.grade_box>.grade:nth-child(3)>li:nth-child(3),
+.at1>.grade_box>.grade:nth-child(4)>li:nth-child(3){
+    background:#eeeeee; 
+    
+ }
+.at1>.grade_box>.grade:nth-child(1) {
+    width: 15%;
+    border-left: 0;
+    background: rgb(207, 207, 207);
+    font-weight: bold;
+}
+
+.at1>.grade_box>.grade>li {
+    width: 100%;
+    height: 130px;
+    border: 0px solid black;
+    border-bottom: 2px solid white;
+    line-height: 130px;
+    text-align: center;
+}
+
+.at1>.grade_box>.grade>li:nth-child(1) {
+    height: 90px;
+    line-height: 90px;
+    border-bottom: 2px solid white;
+    /* background: rgb(158, 226, 209); */
+    font-weight: 600;
+}
+.at1>.grade_box>.grade:nth-child(2)>li:nth-child(1) {
+    background: rgb(143, 201, 187);
+}
+
+.at1>.grade_box>.grade:nth-child(3)>li:nth-child(1) {
+    background: rgb(125, 182, 169);
+}
+
+.at1>.grade_box>.grade:nth-child(4)>li:nth-child(1) {
+    background: rgb(111, 168, 155);
+}
+
+.at1>.grade_box>.grade:nth-child(1)>li:nth-child(2) {
+    line-height: 60px;
+}
+
+.at1>.grade_box>.grade:nth-child(4)>li:nth-child(4) {
+    line-height: 65px;
+}
+
+.at1>.grade_box>.grade>li:nth-child(4) {
+    border-bottom: 0;
+}
+
+/* 포인트 환급 */
+.at1>.p_change {
+    width: 100%;
+    height: 700px;
+    border: 0px solid black;
+    margin: 150px auto;
+}
+
+/* 포인트 환급 제목 */
+.at1>.p_change>p {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 2rem;
+    font-family: 'HallymMjo-Regular';
+font-weight : 700;
+    margin-bottom: 50px;
+}
+
+/* 포인트환급 내용 */
+.at1>.p_change>.p_changeBox {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    
+}
+
+/* 포인트환급 안의 div */
+.at1>.p_change>.p_changeBox>div {
+    width: 27%;
+    height: 100%;
+    border: 0px solid blue;
+}
+
+.at1>.p_change>.p_changeBox>div:nth-child(1),
+.at1>.p_change>.p_changeBox>div:nth-child(3) {
+    margin-top: 10%;
+}
+
+/* 포인트환급 내용안의 이미지 */
+.at1>.p_change>.p_changeBox>div>img {
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+}
+
+/* 포인트환급 내용안의 텍스트 */
+.at1>.p_change>.p_changeBox>div>p {
+    text-align: center;
+    font-family: 'HallymMjo-Regular';
+    font-weight: 600;
+}
+
+.at1>.p_change>.p_changeBox>.arrow {
+    width: 8%;
+    border: 0px solid red;
+    line-height: 300px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.at1>.p_change>.p_changeBox>.arrow:nth-child(2) {
+    font-family: 'HallymMjo-Regular';
+    line-height: 600px;
+}
+
+.at1>.p_change>.p_changeBox>div>div {
+    width: 100%;
+    height: 50%;
+    border: 0px solid black;
+    
+}
+
+/* 포인트 환급> 환급방법의 이미지 */
+.at1>.p_change>.p_changeBox>.exchange>div>img {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    
+}
+
+/* 포인트 환급> 환급방법의 텍스트 */
+.at1>.p_change>.p_changeBox>.exchange>div>p {
+    text-align: center;
+    /* margin-top: -30px; */
+    font-family: 'HallymMjo-Regular';
+    font-weight: 600;
+    /* border: 1px solid blue; */
+}
