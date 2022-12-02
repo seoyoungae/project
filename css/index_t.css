@@ -1,0 +1,153 @@
+.at {
+    width: 100%;
+}
+
+.home {
+    width: 17%;
+}
+
+nav>div {
+    width: 13%;
+}
+
+nav>.sub_menu>ul {
+    width: 13%;
+    margin-right: 0;
+}
+
+nav>.sub_menu>ul:nth-child(1) {
+    margin-left: 2%;
+    font-size: 0.5rem;
+
+}
+
+nav>div:nth-child(6),
+nav>div:nth-child(7),
+nav>div:nth-child(8) {
+    width: 5%;
+}
+
+nav>div:nth-child(6) {
+    margin-left: 14%;
+}
+
+.main_img {
+    background-size: 100% 100%;
+}
+
+.main_img {
+    height: 450px;
+}
+
+.main_text {
+    top: 15%;
+    width: 300px;
+    font-size: 2.1rem;
+}
+
+.main_text p:nth-child(1) {
+    top: 25%;
+    left: -30px;
+    width: 320px;
+}
+
+.main_text p:nth-child(2) {
+    top: 65%;
+    left: -13%;
+}
+
+.at0>.mainCam {
+    height: 550px;
+}
+
+.at0>.mainCam>div:nth-child(1) {
+    height: 400px;
+    width: 55%;
+}
+
+.at0>.mainCam>div:nth-child(2) {
+    margin-top: 0;
+    width: 40%;
+}
+
+.at0>.mainCam>div:nth-child(2)>p {
+    font-size: 1rem;
+}
+
+.at1>.pdInfo {
+    width: 90%;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.at1>.pdInfo>div>div {
+    width: 40%;
+    height: 300px;
+    border: 0px solid black;
+    margin-bottom: 120px;
+}
+
+.at1>.pdInfo>div>p {
+    width: 40%;
+    margin-bottom: 400px;
+}
+
+.review,
+.noticeEx {
+    width: 90%;
+    height: 550px;
+    border: 1px solid white;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.review>div,
+.noticeEx>div {
+    margin-left: 0px;
+}
+
+.review>.reviewImg,
+.noticeEx>.noticeImg {
+    width: 100%;
+    height: 250px;
+    /* margin-bottom: 20px; */
+}
+
+.review>.reviewText,
+.noticeEx>.noticeExText {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.review>.reviewText>.reviewText1,
+.noticeEx>.noticeExText>.noticeExText1 {
+    width: 100%;
+    border: 0px solid red;
+    margin-top: 0px;
+}
+
+.noticeEx>.noticeImg {
+    margin-top: -550px;
+}
+
+.noticeEx>.noticeExText {
+    /* border: 1px solid black; */
+    margin-top: 250px;
+}
+
+.infoBox {
+    top: 10%;
+    left: 10%;
+    width: 630px;
+    height: 650px;
+    padding: 10px
+}
+.infoBox>div {
+    width: 200px;
+    height: 200px;
+    margin-left: -50px;
+    margin-top:50px;
+}

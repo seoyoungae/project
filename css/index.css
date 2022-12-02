@@ -1,0 +1,394 @@
+/* 메인페이지 */
+.at {
+    width: 80%;
+    margin: 80px auto;
+    margin-bottom: 50px;
+    border: 0px solid black;
+}
+
+/* 메인이미지, 메인캠페인 */
+.main_img {
+    width: 100%;
+    height: 700px;
+    border: 0px solid black;
+    background: url(../img/environmental_2.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.main_text {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    width: 550px;
+    height: 500px;
+    border: 0px solid white;
+    font-family: 'HallymMjo-Regular';
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.main_text p {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    color: white;
+    opacity: 0;
+    text-shadow: -1px 0 rgba(0, 0, 0, 0.669), 5px 5px rgba(0, 0, 0, 0.52), 5px 10px rgba(0, 0, 0, 0.646), 5px -1px rgba(0, 0, 0, 0.543);
+}
+
+.main_text p:nth-child(1) {
+    top: 30%;
+    left: -30px;
+}
+
+.main_text p:nth-child(2) {
+    top: 70%;
+    left: -30px;
+    width: 80%;
+}
+
+.at0>p {
+    width: 100%;
+    height: 60px;
+    border: 0px solid black;
+    text-align: center;
+    line-height: 1.75;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'HallymMjo-Regular'
+}
+
+/* 메인 캠페인 */
+.at0>.mainCam {
+    width: 100%;
+    height: 600px;
+    border: 0px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.at0>.mainCam>div {
+    height: 100%;
+    border: 0px solid red;
+
+}
+
+/* 메인캠페인 이미지 */
+.at0>.mainCam>div:nth-child(1) {
+    width: 60%;
+    background: url(../img/yellow-cups.jpg);
+    background-size: 100% 100%;
+
+}
+
+/* 메인 캠페인 텍스트 */
+.at0>.mainCam>div:nth-child(2) {
+
+    width: 35%;
+    margin: 30px auto;
+    height: 500px;
+    border: 0px solid black;
+
+}
+
+.at0>.mainCam>div:nth-child(2)>p {
+    width: 100%;
+    text-indent: 20px;
+    margin-bottom: 20px;
+    line-height: 1.75;
+    border: 0px solid black;
+}
+
+/* 제목 */
+.at0>.mainCam>.mainCamText>p:nth-child(1) {
+    height: 50px;
+    line-height: 1.75;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.at1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+}
+
+.at1>.pdtitle {
+    width: 100%;
+    height: 60px;
+    border: 0px solid black;
+    text-align: center;
+    line-height: 1.75;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'HallymMjo-Regular'
+}
+
+/* 제품안내 */
+.at1>.more_product {
+    width: 90%;
+    height: 50px;
+    border: 0px solid black;
+    line-height: 50px;
+    text-align: right;
+    margin-top: -50px;
+    font-size: 1.3rem;
+}
+
+.at1>.more_product:hover a {
+    background: #ccc;
+}
+
+.at1>.pdInfo {
+    width: 100%;
+    height: 450px;
+    border: 0px solid red;
+
+}
+
+.at1>.pdInfo>div {
+    width: 100%;
+    height: 30px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.at1>.pdInfo>.pdImg {
+    height: 300px;
+}
+
+.at1>.pdInfo>div>div {
+    width: 20%;
+    height: 300px;
+    border: 0px solid black;
+    margin-bottom: 20px;
+}
+
+.at1>.pdInfo>div>p {
+    width: 20%;
+    height: 30px;
+    border: 0px solid blue;
+    text-indent: 30px;
+}
+
+.at1>.pdInfo>.pdName>p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.at1>.pdInfo>.pdPrice>p {
+    text-align: right;
+}
+
+
+/* 리뷰/공지사항 게시판 미리보기 */
+.wrap0,
+.wrap1 {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.review,
+.noticeEx {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.review>div,
+.noticeEx>div {
+    height: 100%;
+    margin-left: 20px;
+}
+
+.review>.reviewImg {
+    width: 65%;
+    background: url(../img/JR_01.jpg);
+    background-size: 100% 100%;
+}
+
+.review>.reviewText,
+.noticeEx>.noticeExText {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.noticeEx>.noticeImg {
+    width: 65%;
+    background: url(../img/bs_05.jpg);
+    background-size: 100% 100%;
+}
+
+.review>.reviewText>p,
+.noticeEx>.noticeExText>p {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    /* border:0px solid black */
+}
+
+.review>.reviewText>p:nth-child(1),
+.noticeEx>.noticeExText>p:nth-child(1) {
+    width: 70%;
+    border-right: 1px solid #f2f1f2;
+}
+
+.review>.reviewText>p:nth-child(2),
+.noticeEx>.noticeExText>p:nth-child(2) {
+    width: 30%;
+
+}
+
+.review>.reviewText>.reviewText1 {
+    width: 100%;
+    border: 0px solid red;
+    margin-top: -100px;
+}
+
+.noticeEx>.noticeExText>.noticeExText1 {
+    margin-top: -50px;
+    width: 100%;
+}
+
+.review>.reviewText>.reviewText1>li,
+.noticeEx>.noticeExText>.noticeExText1>li {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    /* border:0px solid red; */
+    display: flex;
+    text-indent: 20px;
+}
+
+.review>.reviewText>.reviewText1>li>.reText0,
+.noticeEx>.noticeExText>.noticeExText1>li>.noText0 {
+    border-right: 1px solid #f2f1f2;
+    width: 70%;
+}
+
+.review>.reviewText>.reviewText1>li>.reData0,
+.noticeEx>.noticeExText>.noticeExText1>li>.noData0 {
+    width: 30%;
+    text-align: center;
+}
+
+.noticeExText>.more_notice {
+    width: 100%;
+    height: 50px;
+    border: 0px solid black;
+    line-height: 50px;
+    text-align: right;
+    margin-top: -50px;
+}
+
+.noticeExText>.more_notice:hover a {
+    background: #ccc;
+}
+
+.popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.498);
+    display: none;
+}
+
+.close_popup {
+    position: absolute;
+    top: 50px;
+    left: 95%;
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+
+.infoBox {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 700px;
+    height: 650px;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+}
+
+.infoBox>div {
+    width: 270px;
+    height: 500px;
+    margin-left: -60px;
+    margin-right: 10px;
+    border: 0px solid red;
+}
+
+.infoBox>div>img {
+    width: 100%;
+}
+
+.infoBox>ul {
+    width: 60%;
+    height: 600px;
+    border: 0px solid blue;
+}
+
+.infoBox>ul>li {
+    width: 100%;
+    height: 60px;
+    border: 0px solid black;
+    border-bottom: 1px solid #ccc;
+    text-indent: 30px;
+    line-height: 60px;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+}
+
+.infoBox>ul>li>p {
+    height: 60px;
+}
+
+.infoBox>ul>li>p:nth-child(1) {
+    width: 33%;
+}
+
+.infoBox>ul>li>input {
+    width: 150px;
+    height: 50%;
+    margin: 15px 30px;
+}
+
+.btn {
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn>div {
+    width: 40%;
+    border: 0px solid black;
+    text-align: center;
+    text-indent: 0;
+    background-color: rgb(109, 109, 109);
+    line-height: 70px;
+    color: white;
+    cursor: pointer;
+}
