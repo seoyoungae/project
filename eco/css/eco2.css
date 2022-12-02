@@ -1,0 +1,258 @@
+.sec0 {
+    width: 100%;
+}
+
+.at0 {
+    width: 70%;
+    /* height: 1800px; */
+    border: 0px solid red;
+    margin: 0 auto;
+}
+
+/* 탄소중립이란 */
+.at0>.subTitle1 {
+    width: 100%;
+    height: 120px;
+    border: 0px solid black;
+    margin-bottom: 30px;
+}
+
+.at0>.subTitle1>p {
+    text-align: center;
+    line-height: 10px;
+    font-size: 1rem;
+}
+
+/* 큰 글씨 */
+.at0>.subTitle1>p:nth-child(1) {
+    line-height: 100px;
+    font-size: 2rem;
+    font-family: 'HallymMjo-Regular';
+    font-weight: 700;
+}
+
+/* 대한민국 비전/ 파리협정 박스 */
+.sec0>.at0>.cInfo {
+    width: 100%;
+    height:600px;
+    border: 0px solid red;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 정보 글 박스 */
+.sec0> .at0>.cInfo>div {
+    width: 50%;
+    /* flex: 1; */
+    height: 100%;
+    border: 0px solid blue;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-bottom: 50px;
+}
+.sec0>.at0>.cInfo>.cImg1{
+    width:50%;
+    height: 100%;
+    border: 0px solid black;
+    
+}
+.sec0>.at0>.cInfo>.cImg1>img{
+    width:100%;
+    height:100%;
+    border: 0px solid black;
+    margin:-10px;
+}
+.at0>.cInfo>.cText>div {
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    border: 0px solid black;
+    font-size: 1.2rem;
+    line-height: 1.75;
+    text-indent: 20px;
+}
+
+.at0>.cInfo>.cText>div>p {
+    margin-bottom: 30px;
+}
+
+.at0>.cInfo>.cText>.cTextRight>p:nth-child(1),
+.at0>.cInfo>.cText>.cTextLeft>p:nth-child(1) {
+    width: 250px;
+    font-size: 1.3rem;
+    font-family: 'HallymMjo-Regular';
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border-bottom: 3px solid #ccc;
+}
+
+
+
+.at0>.cInfo>.cText>.cTextRight>div {
+    width: 100%;
+    height: 55%;
+    border: 0px solid blue;
+}
+
+.at0>.cInfo>.cText>.cTextRight>div>div {
+    width: 100%;
+    height: 100%;
+    border: 0px solid red;
+    margin-bottom: 4%;
+
+}
+
+/* 탄소중립과정 */
+.at0>.cTitle2 {
+    width: 30%;
+    height: 8%;
+    margin: 100px auto;
+    font-size: 2rem;
+    line-height: 80px;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    border-bottom: 5px solid #ccc;
+    text-align: center;
+    font-family: 'HallymMjo-Regular';
+    font-weight: 700;
+}
+
+.at0>.cImg {
+    width: 100%;
+    height: 220px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.sec0>.at0>.cImg>div{
+    width:17%;
+    height:100%;
+    border: 0px solid black;
+}
+.sec0>.at0>.cImg>div:nth-child(1){
+    background: url(../img/1.png);
+    background-size: 100% 100%;
+}
+.sec0>.at0>.cImg>div:nth-child(2){
+    background: url(../img/2.png);
+    background-size: 100% 100%;
+}
+.sec0>.at0>.cImg>div:nth-child(3){
+    background: url(../img/3.png);
+    background-size: 100% 100%;
+}
+.sec0>.at0>.cImg>div:nth-child(4){
+    background: url(../img/4.png);
+    background-size: 100% 100%;
+}
+.sec0>.at0>.cImg>div:nth-child(5){
+    background: url(../img/5.png);
+    background-size: 100% 100%;
+}
+/* 탄소중립 실천방안 */
+.ecoEx {
+    width: 100%;
+    height: 700px;
+    border: 0px solid black;
+    margin-top: 200px;
+}
+
+.ecoEx>p {
+    width: 35%;
+    height: 80px;
+    border-radius: 50px;
+    border-bottom: 4px solid #ccc;
+    text-align: center;
+    line-height: 80px;
+    font-size: 2rem;
+    font-family: 'HallymMjo-Regular';
+    font-weight: 700;
+    margin: 50px auto;
+}
+
+.ecoEx>.ecoExImg {
+    width: 100%;
+    height: 500px;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.ecoEx>.ecoExImg>div {
+    width: 100%;
+    height: 100%;
+    border: 0px solid black;
+    text-align: center;
+    line-height: 480px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.ecoEx>.ecoExImg>.swiper-container{
+    width:70%;
+    height:70%;
+}
+.ecoEx>.ecoExImg>.ExImg {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 60%;
+    overflow: hidden;
+    cursor: default;
+}
+
+.ecoEx>.ecoExImg>.ExImg>.Img13 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+    height: 100%;
+    display: flex;
+    border: 0px solid red;
+}
+
+.ecoEx>.ecoExImg>.ExImg>.Img13>li {
+    width: 100%;
+    height: 100%;
+    border: 0px solid blue;
+}
+
+.at2 {
+    width: 100%;
+}
+
+.swiper-container {
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-container{
+    display: none;
+}
+.ExImg{
+    display: block;
+}

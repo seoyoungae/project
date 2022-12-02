@@ -1,0 +1,271 @@
+.home {
+    position: relative;
+    top:25px;
+    left:0;
+    z-index: 99;
+    height: 50px;
+    border: 0px solid red;
+    margin: 0px auto;
+}
+.hp_info{
+    display:none;
+}
+nav {
+    height: 50px;
+    margin-top:px;
+    border: 0px solid black;
+}
+
+.menu:hover .sub_menu {
+    height: 0;
+}
+
+nav>div {
+    display: none;
+    margin: 0;
+    cursor: default;
+}
+
+nav>div:hover {
+    border-bottom: 0px;
+}
+
+nav>.menu_m {
+    margin-top:-25px;
+    display: block;
+    display: flex;
+}
+.at0 {
+    width: 90%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+
+/* 친환경/환경오염의 원인 큰 박스 */
+.at0>.ecoInfo1 {
+    border:1px solid white;
+    height: 900px;
+    display: block;
+    border: 0px solid black;
+}
+
+.at0>.ecoInfo1:nth-child(2){
+    height:600px;
+}
+.at0>.ecoInfo1>.ecoInfoImg1,
+.at0>.ecoInfo1>.ecoInfoImg2{
+    width:70%; height: 40%;
+    margin: 50px auto;
+}
+/* 이미지 삽입 */
+.at0>.ecoInfo1>.ecoInfoImg1 {
+    background: url(../img/eco_info1_m.jpg);
+    background-size: 100% 100%;
+}
+
+
+.sec0>.at0>.ecoInfo1>.ecoInfoImg2 {
+    background: url(../img/eco_info2_m.jpg);
+    background-size: 100% 100%;
+}
+
+
+/* 글씨 옆에 이미지들 */
+.at0>.ecoInfo1>.ecoInfoText1,
+.at0>.ecoInfo1>.ecoInfoText2 {
+    width: 100%;
+    border: 0px solid blue;
+    padding: 10px;
+}
+.at0>.ecoInfo1>.ecoInfoText1{
+    height: 50%
+}
+.sec0>.at0>.ecoInfo1>.ecoInfoText2{
+    height: 60%;
+    margin-top: 100px;
+    border: 0px solid blue;
+
+}
+.sec0>.at0>.ecoInfo1>.ecoInfoImg2{
+    height: 300px;
+    margin-top:-170px;
+}
+
+
+
+/* 이미지 옆의 설명 글 div*/
+.at0>.ecoInfo1>.ecoInfoText1>p:nth-child(3),
+.at0>.ecoInfo1>.ecoInfoText1>p:nth-child(4),
+.at0>.ecoInfo1>.ecoInfoText2>p:nth-child(2),
+.at0>.ecoInfo1>.ecoInfoText2>p:nth-child(3),
+.at0>.ecoInfo1>.ecoInfoText2>p:nth-child(4) {
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-size: 1rem;
+}
+
+
+
+.at0>.ecoInfo1>.ecoInfoText2>p:nth-child(2),
+.at0>.ecoInfo1>.ecoInfoText2>p:last-child {
+    display: none;
+}
+
+/* 글 소제목 굵게 처리 */
+.at0>.ecoInfo1>.ecoInfoText1>p:nth-child(1),
+.at0>.ecoInfo1>.ecoInfoText2>p:nth-child(1) {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* 글씨 옆에 이미지들 */
+.at0>.ecoInfo1>div{
+    width:100%;
+}
+
+/* 친환경마크 설명부분 */
+.at0>.ecoInfo1:last-child {
+    height: 20%;
+    margin-top: 0px;
+    display: block;
+}
+
+.at0>.ecoInfo1>.ecoLogo {
+    width: 80%;
+    /* height: 40%; */
+    margin: 0 auto;
+    border: 0px solid black;
+}
+
+.at0>.ecoInfo1>.ecoLogoText {
+    width: 100%;
+    border:0px solid black;
+}
+.at0>.ecoInfo1>.ecoLogoText>p:nth-child(1){
+    height: 20%;
+    line-height: 90px;
+}
+.at0>.ecoInfo1>.ecoLogoText>p:nth-child(2) {
+    line-height: 1.75;
+    font-size: 1rem;
+    /* border: 1px solid black; */
+}
+
+.footer>.left>p {
+    font-size: 0.7rem;
+    line-height: 30px;
+}
+
+
+
+/* eco2.css */
+.at0>.subTitle1>p {
+    line-height: 20px;
+}
+
+.at0>.subTitle1>p:nth-child(1) {
+    font-size: 1.5rem;
+    line-height: 80px
+}
+.sec0>.at0>.cInfo{
+    height: 1000px;
+    border: 0px solid red;
+}
+.sec0>.at0>.cInfo>.cImg1{
+    width:100%;
+    height: 30%;
+    border: 0px solid black;
+    
+}
+.sec0>.at0>.cInfo>.cText {
+    display: block;
+    width:100%;
+    height: 65%;
+    border: 0px solid blue;
+}
+
+.sec0>.at0>.cInfo>.cImg1{
+    width:100%;
+}
+.at0>.cInfo>.cText>div {
+    width: 100%;
+    height: 350px;
+    font-size: 1rem;
+    line-height: 40px;
+    border: 0px solid black;
+}
+
+.sec0>.at0>.cTitle2 {
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+    font-size:1.5rem;
+    font-weight: bold;
+    /* border: 0px solid black; */
+}
+
+
+.at0>.cInfo>.cText>.cTextRight>div {
+    width: 100%;
+    height:50%;
+}
+.at0>.cInfo>.cText>.cTextRight>div>div:last-child {
+    margin-left: 0;
+}
+/* 탄소중립과정 */
+.sec0>.at0>.cImg>div{
+    width:30%;
+    height:55%
+}
+
+/* 나중에 하나씩 나눠서 슬라이드 넣기 */
+.sec0>.at0>.cImg>div:nth-child(4){
+    display: none;
+}
+.sec0>.at0>.cImg>div:nth-child(5){
+    display: none;
+}
+
+/* 탄소중립 실천방안 */
+.ecoEx {
+    width: 100%;
+    height: 500px;
+    border: 0px solid black;
+    margin-top:0;
+}
+.ecoEx>p{
+    width:50%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2rem;
+}
+
+.ecoEx>.ecoExImg{
+    border: 0px solid black;
+    margin-top:20px;
+    height: 250px;
+}
+
+
+.at2>.footer {
+    font-size: 0.7rem;
+}
+
+.at2>.footer>.left {
+    margin-top: 20px;
+}
+
+.at2>.footer>.left>p {
+    line-height: 1.75;
+}
+
+.side_menu_m>ul>li>div>div>a {
+    color: white;
+}
+
+.swiper-container{
+    display: block;
+}
+.ExImg{
+    display: none;
+}

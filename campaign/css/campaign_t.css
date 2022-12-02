@@ -1,0 +1,46 @@
+.at {
+    width: 100%;
+}
+
+.home {
+    width: 17%;
+}
+
+nav>div {
+    width: 13%;
+}
+
+nav>.sub_menu>ul {
+    width: 13%;
+    margin-right: 0;
+}
+
+nav>.sub_menu>ul:nth-child(1) {
+    margin-left: 2%;
+    font-size: 0.5rem;
+
+}
+
+nav>div:nth-child(6),
+nav>div:nth-child(7),
+nav>div:nth-child(8) {
+    width: 5%;
+}
+
+nav>div:nth-child(6) {
+    margin-left: 14%;
+}
+.at0>.wrap0{
+    width:90%;
+    margin: 0 auto;
+}
+.at0>.wrap0>ul{
+    width:30%;
+    height: 20%;
+}
+.at0>.wrap1>.big_img{
+    height:40%;
+}
+.at0>.wrap1>.big_img_text{
+    top:670px;
+}

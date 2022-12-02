@@ -1,0 +1,167 @@
+
+.home {
+    width: 17%;
+}
+
+nav>div {
+    width: 13%;
+}
+
+nav>.sub_menu>ul {
+    width: 13%;
+    margin-right: 0;
+}
+
+nav>.sub_menu>ul:nth-child(1) {
+    margin-left: 2%;
+    font-size: 0.5rem;
+
+}
+
+nav>div:nth-child(6),
+nav>div:nth-child(7),
+nav>div:nth-child(8) {
+    width: 5%;
+}
+
+nav>div:nth-child(6) {
+    margin-left: 14%;
+}
+.sec0>.at0 {
+    width: 90%;
+    margin:0 auto;
+}
+
+.at0>.ecoInfo1 {
+    margin: 50px auto;
+}
+
+.at0>.ecoInfo1>.ecoInfoImg1,
+.at0>.ecoInfo1>.ecoInfoImg2 {
+    width:50%;
+    height: 70%;
+}
+
+.at0>.ecoInfo1>.ecoInfoText1>p,
+.at0>.ecoInfo1>.ecoInfoText2>p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.at0>.ecoInfo1>.ecoInfoText2{
+    height:85%;
+}
+.at0>.ecoInfo1>.ecoInfoText2>p {
+    line-height: 30px;
+}
+
+.at0>.ecoInfo1>.ecoLogo {
+    height:150px;
+    margin-top: 50px;
+}
+
+.at0>.ecoInfo1>.ecoLogoText {
+    font-size: 1.1rem;
+}
+
+.at1{
+
+    width:250px;
+}
+.at1 .at1_menu{
+    width:100%;
+    border: 0px solid black;
+}
+
+.at1 .at1_menu li{
+    text-indent: 70px;
+}
+.at1 .at1_menu li:last-child{
+    margin-left:-100px;
+}
+
+.at0>.ecoInfo1>.ecoInfoText1>.at_text1,
+.at0>.ecoInfo1>.ecoInfoText2>.at_text2 { 
+    padding:10px;
+    font-size: 0.9rem;
+}
+
+
+
+
+/* eco2의 테블릿버전 */
+.at0>.cInfo>.cText {
+    height: 75%;
+}
+
+.at0>.cInfo>.cText>div {
+    font-size: 1rem;
+    line-height: 45px;
+    text-indent: 20px;
+}
+.sec0>.at0>.cInfo>.cImg1{
+    height:60%;
+    
+}
+.sec0>.at0>.cImg {
+    width:100%;
+}
+
+.at0>.cImg>img {
+    width: 100%;
+    height: 70%;
+    margin: 20px 15px;
+}
+
+.at0>.cInfo>.cText>.cTextRight>div>div{
+    width:100%;
+}
+.at0>.cInfo>.cText>.cTextRight>div>div:last-child {
+    margin-left: 20%;
+}
+
+.ecoEx {
+    margin-top: 100px;
+}
+
+.ecoEx>p {
+    width: 40%;
+    line-height: 80px;
+    font-size: 1.5rem;
+}
+
+.ecoEx>.ecoExImg {
+    width: 100%;
+    height: 400px;
+}
+
+.ecoEx>.ecoExImg>.ExImg {
+    width: 80%;
+}
+.at0>.ecoInfo1>.ecoInfoText1>.at_text1,
+.at0>.ecoInfo1>.ecoInfoText2>.at_text2 {
+    padding:30px;
+}
+
+/* eco2.css */
+
+.at0>.cInfo>.cText>.cTextLeft>.cLeftImg{
+    width: 100%;
+}
+.at0>.cInfo>.cText>.cTextRight>div>div:last-child {
+    margin-left: 0;
+    
+}
+.at0>.cInfo>.cText>.cTextRight>div
+{
+    height:40%;
+}
+.sec0>.at0>.cImg>div{
+    width:23%;
+    height:90%;
+    border: 0px solid black;
+}
+.sec0>.at0>.cImg>div:nth-child(4){
+    display: none;
+}
+
