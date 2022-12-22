@@ -20,17 +20,25 @@ const dataEco = {
     at1_text2: ["자동차에서 배출되는 배기가스와 공장굴뚝에서 나오는 연기가 가장 문제가 된다",
         "자연수가 가정폐수, 공장폐수 등 사회로부터 배출된 액상폐기물에 의해서 수질 저하가 된 상태를 말한다.",
         "탄화수소나 농약과 같은 유기 화학물질 등에서 발생하는 경우가 많으며 공업단지와 도시 매연가스에 의한 산성비, 식품포장 폐기물 등 다양한 원인에 의해서 발생한다.",
-        "지구가 도시화 되어가면서 나무가 없어지고 산림이 사막화 되기 때문이다."]
+        "지구가 도시화 되어가면서 나무가 없어지고 산림이 사막화 되기 때문이다."],
+    at0_icon1 :["essence.png","checklist_list.png","bulb.png","car.png","clothes.png"],
+    at0_icon2 :["smoke_car.png","fish.png","earth.png","agriculture.png"]
 };
 let file_name;
 let ecoText2, cTextLeft, cTextRight, ExImg13;
 let right, left, ExImg, num = 0, n = 0;
-let timer = setInterval("show()",3000);
+let timer = setInterval("show()", 3000);
 let list = 0;
+let width=window.innerWidth;
 window.onload = function () {
     file_name = document.URL.substring(document.URL.lastIndexOf('/') + 1, document.URL.length);
     // console.log(file_name)
     if (file_name === "eco1.html") {
+        if(width<=700){
+            $(".ecoInfoText2").css("opacity","1");
+            $(".ecoLogoText").css("opacity","1");
+        }
+
         ecoText2 = document.querySelector(".ecoInfoText2").getElementsByTagName("p");
 
         for (i = 0; i < dataEco.ecoTextA.length; i++) {
@@ -43,22 +51,25 @@ window.onload = function () {
         }
 
         $(".at1_menu li").on("click", function () {
+            no = $(this).index();
             if (list === 0) {
-                no = $(this).index();
                 $(".at_text1").html(dataEco.at1_text1[no]);
+                $(".ecoIcon1").css("background","url(../eco/img/"+dataEco.at0_icon1[no]+")");
+                $(".ecoIcon1").css("backgroundSize", "100% 100%");
+                $(".ecoIcon1").css("box-shadow", "5px 5px 10px 5px rgba(0, 0, 0, 0.122)");
+
+            }
+            else if(list===1){
+                $(".at_text2").html(dataEco.at1_text2[no]);
+                $(".ecoIcon2").css("background","url(../eco/img/"+dataEco.at0_icon2[no]+")");
+                $(".ecoIcon2").css("backgroundSize", "100% 100%");
+                $(".ecoIcon2").css("box-shadow", "5px 5px 10px 5px rgba(0, 0, 0, 0.122)");
+
             }
 
         })
 
-        $(".at1_menu li").on("click", function () {
-            no = $(this).index();
-            $(".at_text2").html(dataEco.at1_text2[no]);
-        })
-
-
-
-
-        $(".ecoInfoImg1").on("click", function () {
+        $(".ecoInfoImg1").on("mouseover", function () {
             list = 0;
             $(".at1_menu").show();
             $(".at1_menu li:eq(4)").show();
@@ -69,7 +80,7 @@ window.onload = function () {
                 "left": "0"
             }, 500);
         })
-        $(".ecoInfoImg2").on("click", function () {
+        $(".ecoInfoImg2").on("mouseover", function () {
             list = 1;
             $(".at1_menu li:eq(4)").hide();
             for (i = 0; i < dataEco.at1_menu2.length; i++) {
@@ -80,8 +91,10 @@ window.onload = function () {
             }, 500);
         })
 
-        $(".at1_menu_close").on("click", function(){
-            $(".at1").animate({"left": "-100%"},500);
+        $(".at1_menu_close").on("click", function () {
+            $(".at1").animate({ "left": "-100%" }, 500);
+            $(".ecoIcon1").css("box-shadow", "5px 5px 10px 5px rgba(0, 0, 0, 0)");
+            $(".ecoIcon2").css("box-shadow", "5px 5px 10px 5px rgba(0, 0, 0, 0)");
         })
 
     }
@@ -115,7 +128,7 @@ window.onload = function () {
         // })
         // right.addEventListener("mouseenter", function () {
         //     clearInterval(timer);
-            
+
         // })
         // right.addEventListener("mouseleave", function () {
         //     timer = setInterval("show()", 5000);
@@ -128,28 +141,32 @@ window.onload = function () {
     }
 
     $(".ecoInfoText1").animate({
-        "marginTop":"0",
-        "opacity":1
+        "marginTop": "0",
+        "opacity": 1
     }, 1000);
 
 }
 let y;
-window.addEventListener("scroll", function(){
-    y=window.scrollY;
+window.addEventListener("scroll", function () {
+    y = window.scrollY;
     console.log("현재 스크롤 Y값: " + y);
-    if(y>250){
-        $(".ecoInfoText2").animate({
-            "marginTop":"0",
-            "opacity":1
-        }, 1000);
+    width=window.innerWidth;
+    if(width>700){
+        if (y > 250) {
+            $(".ecoInfoText2").animate({
+                "marginTop": "0",
+                "opacity": 1
+            }, 1000);
+        }
+    
+        if (y > 700) {
+            $(".ecoLogoText").animate({
+                "marginTop": "0",
+                "opacity": 1
+            }, 1000);
+        }
     }
     
-    if(y>700){
-        $(".ecoLogoText").animate({
-            "marginTop":"0",
-            "opacity":1
-        }, 1000);
-    }
 })
 
 
@@ -171,7 +188,7 @@ function rightSilde() {
 
     n++;
     count = n * 100;
-    $(".Img13").css("left", count+"%");
+    $(".Img13").css("left", count + "%");
     console.log(n);
     console.log(count);
 }

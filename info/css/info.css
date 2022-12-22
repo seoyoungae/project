@@ -12,12 +12,12 @@ a {
 
 html {
    font-size: 16px;
-   font-family: 'Noto Sans KR';
+   font-family: 'Gowun Batang';
 }
 
 .sec {
    width: 100%;
-   height: 950px;
+   /* height: 950px; */
    display: flex;
    overflow: hidden;
 }
@@ -28,7 +28,6 @@ html {
    background:rgb(60, 60, 60);
    color:white;
    display: flex;
-
 }
 .top>div{
    width:50%;
@@ -126,14 +125,15 @@ html {
 
 .sec>.left {
    width: 20%;
-   height: 100%;
+   height: 900px;
    border: 1px solid black;
+   overflow: scroll;
    background:rgb(60, 60, 60);
 }
 
 .sec>.right {
    width: 80%;
-   height: 100%;
+   height: 900px;
    border: 1px solid black;
    background:rgb(60, 60, 60);
 }
@@ -141,13 +141,13 @@ html {
 .sec>.left>.imgs {
    width: 100%;
    height: 100%;
-   overflow: scroll;
+   
    padding:80px;
 }
 
 .sec>.left>.imgs>li {
    width: 100%;
-   height: 150px;
+   height: 15%;
    border: 1px solid #f2f2f2;
    margin-bottom: 100px;
    opacity: 0.7;  
@@ -181,10 +181,10 @@ html {
    color:white
 }
 .sec>.right>.title>p:nth-child(1){
-   width:70%;
+   width:65%;
 }
 .sec>.right>.title>p:nth-child(2){
-   width:30%;
+   width:35%;
 }
 .sec>.right>.imgBox{
    width:100%; height: 80%;
@@ -192,41 +192,52 @@ html {
    display: flex;
 }
 .sec>.right>.imgBox>div{
-    height:60%;
+   position: relative;
+   top:0;   left:0;
+   
     border: 1px solid white;
-    margin: 80px;
+    margin: 50px;
     /* overflow: hidden; */
 }
-.sec>.right>.imgBox>div>.pcBox{
-   margin-top:-25px;
-   margin-left:-20px;
-}
-.sec>.right>.imgBox>div img{
-   width:100%;
-}
-.sec>.right>.imgBox>div>.pcBox{
-   width:103%;
-}
-.sec>.right>.imgBox>.pcBox{
-   width:60%;
-}
-.sec>.right>.imgBox>.mobile>.mBox{
-   margin-top:-70px;
-   margin-left:-10px;
-}
-.sec>.right>.imgBox>.mobile>.mBox img{
-   width:105%;
-}
-.sec>.right>.imgBox>.pc{
-   width:70%;
+.sec>.right>.imgBox>.pcBox>.pc{
+   position: absolute;
+   top:0; left:0;
+   z-index:1;
+   width:760px;
+   height:450px;
    background: url(/info/img/1.png);
    background-size: 100% 100%;
+   border: 0px solid blue;
+   margin: 23px 21px;
 }
-
-.sec>.right>.imgBox>.mobile{
-   width:30%;
-   height:80%;
-   margin-top:100px;
+.sec>.right>.imgBox>.pcBox{
+   z-index:50;
+   width:800px;
+   height:700px;
+   border:0px solid red;
+}
+.sec>.right>.imgBox>.pcBox>img{
+   width:100%; height:100%;
+}
+.sec>.right>.imgBox>.mBox{
+   width:350px;
+   height:700px;
+   border: 0px solid white;
+}
+.sec>.right>.imgBox>.mBox img{
+   width:100%;
+   height:100%;
+}
+.sec>.right>.imgBox>.mBox>.mobile{
+   position: absolute;
+   top:0; left:0;
+   z-index:1;
+   width:310px;
+   height:565px;
+   margin: 67px 20px;
    background: url(/info/img/1m.png);
    background-size: 100% 100%;
 }
+
+
+

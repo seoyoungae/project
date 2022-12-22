@@ -43,10 +43,10 @@ nav>.menu_m {
 
 /* 친환경/환경오염의 원인 큰 박스 */
 .at0>.ecoInfo1 {
-    border:1px solid white;
-    height: 900px;
+    
+    height: 600px;
     display: block;
-    border: 0px solid black;
+    border:1px solid white;
 }
 
 .at0>.ecoInfo1:nth-child(2){
@@ -81,14 +81,14 @@ nav>.menu_m {
     height: 50%
 }
 .sec0>.at0>.ecoInfo1>.ecoInfoText2{
-    height: 60%;
-    margin-top: 100px;
+    height: 40%;
+    margin-top:300px;
     border: 0px solid blue;
 
 }
 .sec0>.at0>.ecoInfo1>.ecoInfoImg2{
     height: 300px;
-    margin-top:-170px;
+    margin-top:-550px;
 }
 
 
@@ -106,11 +106,6 @@ nav>.menu_m {
 
 
 
-.at0>.ecoInfo1>.ecoInfoText2>p:nth-child(2),
-.at0>.ecoInfo1>.ecoInfoText2>p:last-child {
-    display: none;
-}
-
 /* 글 소제목 굵게 처리 */
 .at0>.ecoInfo1>.ecoInfoText1>p:nth-child(1),
 .at0>.ecoInfo1>.ecoInfoText2>p:nth-child(1) {
@@ -122,12 +117,17 @@ nav>.menu_m {
 .at0>.ecoInfo1>div{
     width:100%;
 }
+.at0>.ecoInfo1>.ecoInfoText1>.at_text1,
+.at0>.ecoInfo1>.ecoInfoText2>.at_text2{
+    display: none;
+}
 
 /* 친환경마크 설명부분 */
 .at0>.ecoInfo1:last-child {
     height: 20%;
     margin-top: 0px;
     display: block;
+    border: 0px solid red;
 }
 
 .at0>.ecoInfo1>.ecoLogo {
@@ -151,6 +151,9 @@ nav>.menu_m {
     /* border: 1px solid black; */
 }
 
+.at1{
+    display: none;
+}
 .footer>.left>p {
     font-size: 0.7rem;
     line-height: 30px;

@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'HallymMjo-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymMjo-Regular.woff2') format('woff2');
-    font-weight: 200;
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
 }
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 
 .notosanskr * { 
  font-family: 'Noto Sans KR', sans-serif;
@@ -24,7 +24,8 @@ a {
 
 html {
     font-size: 16px;
-    font-family: 'Noto Sans KR';
+    font-family: 'NanumSquareNeo-Variable';
+    /* font-family: 'Noto Sans KR'; */
     /* font-family: 'GimhaeGayaR'; */
     /* font-family: 'Hahmlet-Regular'; */
 }
@@ -110,7 +111,7 @@ nav>.menu_m>div {
     border: 0px solid white;
     text-align: center;
     line-height: 50px;
-    font-family: 'HallymMjo-Regular';
+    font-family: 'Gowun Batang';
 
     /* color: white; */
     cursor: pointer;
@@ -131,15 +132,7 @@ nav>.menu_m>div:last-child {
     background-size: 100% 100%;
     cursor: pointer;
 }
-.hp_info{
-    position: absolute;
-    top:50px;
-    left:50px;
-    width:100px;
-    height:50px;
-    font-size:1.2rem;
-    color:#ccc;
-}
+
 /* 메인 페이지 메뉴의 서브메뉴 */
 nav>.sub_menu {
     width: 100%;
@@ -187,7 +180,7 @@ nav>.sub_menu>ul>li {
     border-radius: 50%;
     line-height: 50px;
     text-align: center;
-    font-family: 'HallymMjo-Regular';
+    font-family: 'Gowun Batang';
     cursor: pointer;
     font-size: 0.8rem;
 }
@@ -211,11 +204,10 @@ nav>.sub_menu>ul>li>a {
 .sec0>.title {
     width: 100%;
     height: 100px;
-    background: rgb(166, 166, 166);
+    background: rgb(60, 60, 127);
     text-align: center;
     line-height: 100px;
     color: white;
-    font-family: 'HallymMjo-Regular';
     font-size: 2rem;
     font-weight: bold;
 }
@@ -226,7 +218,7 @@ nav>.sub_menu>ul>li>a {
     width: 100%;
     height: 250px;
     margin: 0;
-    background: rgb(94, 94, 94);
+    background: rgb(0, 0, 87);;
     border: 0px solid red;
     color: white;
 }
@@ -235,7 +227,7 @@ nav>.sub_menu>ul>li>a {
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    border: 4px solid rgb(94, 94, 94);
+    border: 0px solid rgb(94, 94, 94);
     display: flex;
 }
 
@@ -401,4 +393,44 @@ nav>.sub_menu>ul>li>a {
     font-size: 2rem;
     cursor: pointer;
     transition: all 0.5s;
+}
+.hp_info{
+    position: fixed;
+    top:77%;
+    right:5%;
+    z-index: 50;
+    width:50px;
+    height:50px;
+    background: rgba(0, 0, 0, 0.523);
+    color:white;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 20px;
+}
+.hp_info a{
+    color:white;
+}
+
+.hp_info_ani{
+    position: fixed;
+    top:77%;
+    right:5%;
+    z-index: 0;
+    width:50px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.523);
+    border-radius: 50px;
+    animation:info_ani 1s infinite linear ;
+}
+@keyframes info_ani{
+    0%{
+        opacity: 1;
+        scale: 1;
+    }
+    100%{
+        opacity: 0;
+        scale: 2;
+    }
 }

@@ -63,6 +63,10 @@ nav>div:nth-child(6) {
 .at0>.ecoInfo1>.ecoLogoText {
     font-size: 1.1rem;
 }
+.at0>.ecoInfo1>.ecoIcon2{
+    top:87%;
+    left:40%;
+}
 
 .at1{
 

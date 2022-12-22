@@ -27,14 +27,14 @@
 .at0>.subTitle1>p:nth-child(1) {
     line-height: 100px;
     font-size: 2rem;
-    font-family: 'HallymMjo-Regular';
+    font-family: 'Gowun Batang';
     font-weight: 700;
 }
 
 /* 대한민국 비전/ 파리협정 박스 */
 .sec0>.at0>.cInfo {
     width: 100%;
-    height:600px;
+    height:550px;
     border: 0px solid red;
     margin-bottom: 100px;
     display: flex;
@@ -49,6 +49,7 @@
     border: 0px solid blue;
     /* display: flex; */
     /* flex-wrap: wrap; */
+    margin-top:50px;
     margin-bottom: 50px;
 }
 .sec0>.at0>.cInfo>.cImg1{
@@ -81,7 +82,7 @@
 .at0>.cInfo>.cText>.cTextLeft>p:nth-child(1) {
     width: 250px;
     font-size: 1.3rem;
-    font-family: 'HallymMjo-Regular';
+    font-family: 'Gowun Batang';
     font-weight: 700;
     margin-bottom: 20px;
     border-radius: 50px;
@@ -115,42 +116,31 @@
     border-radius: 50px;
     border-bottom: 5px solid #ccc;
     text-align: center;
-    font-family: 'HallymMjo-Regular';
+    font-family: 'Gowun Batang';
     font-weight: 700;
 }
 
 .at0>.cImg {
     width: 100%;
-    height: 220px;
+    height: 200px;
     border: 0px solid black;
     display: flex;
     justify-content: space-between;
+    
 }
 .sec0>.at0>.cImg>div{
-    width:17%;
+    width:16%;
     height:100%;
-    border: 0px solid black;
+    border: 3px solid rgb(0, 0, 116);
+    border-radius: 50%;
+    text-align: center;
+    color:rgb(0, 0, 116);;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.sec0>.at0>.cImg>div:nth-child(1){
-    background: url(../img/1.png);
-    background-size: 100% 100%;
-}
-.sec0>.at0>.cImg>div:nth-child(2){
-    background: url(../img/2.png);
-    background-size: 100% 100%;
-}
-.sec0>.at0>.cImg>div:nth-child(3){
-    background: url(../img/3.png);
-    background-size: 100% 100%;
-}
-.sec0>.at0>.cImg>div:nth-child(4){
-    background: url(../img/4.png);
-    background-size: 100% 100%;
-}
-.sec0>.at0>.cImg>div:nth-child(5){
-    background: url(../img/5.png);
-    background-size: 100% 100%;
-}
+
 /* 탄소중립 실천방안 */
 .ecoEx {
     width: 100%;
@@ -167,7 +157,7 @@
     text-align: center;
     line-height: 80px;
     font-size: 2rem;
-    font-family: 'HallymMjo-Regular';
+    font-family: 'Gowun Batang';
     font-weight: 700;
     margin: 50px auto;
 }
@@ -219,6 +209,14 @@
     height: 100%;
     border: 0px solid blue;
 }
+.ecoEx>.ecoExImg>.ExImg>.Img13>li>div{
+    width:100%;
+    height: 200px;
+    text-align: center;
+    color:white;
+    font-weight: 700;
+    text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+}
 
 .at2 {
     width: 100%;
@@ -234,8 +232,6 @@
     text-align: center;
     font-size: 18px;
     background: #fff;
-    
-
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;

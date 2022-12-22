@@ -12,7 +12,7 @@
     background: white;
     width: 50%;
     height: 70px;
-    border: 0px solid rgb(100, 100, 100);
+    border: 0px solid rgb(0, 0, 116);;
     margin: 50px auto;
     display: flex;
 }
@@ -21,17 +21,16 @@
 .page>p {
     width: 33%;
     height: 100%;
-    border: 1px solid rgb(100, 100, 100);
+    border: 1px solid rgb(0, 0, 116);;
     line-height: 70px;
     text-align: center;
-    font-family: 'HallymMjo-Regular';
     font-weight : 500;
 }
 
 .page>p:nth-child(1) {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background: rgb(100, 100, 100);
+    background: rgb(0, 0, 116);;
 }
 
 .page>p:nth-child(1) a {
@@ -61,7 +60,6 @@
     margin: 0 auto;
     margin-top: 150px;
     font-size: 1.7rem;
-    font-family: 'HallymMjo-Regular';
     font-weight : 700;
 }
 
@@ -143,7 +141,7 @@
     height: 50px;
     border: 0px solid black;
     border-radius: 20px;
-    background: rgb(17, 75, 17);
+    background: rgb(0, 0, 116);;
     color: white;
     margin-right: 50px;
 }
@@ -225,7 +223,6 @@
     text-align: center;
     line-height: 60px;
     font-size: 2rem;
-    font-family: 'HallymMjo-Regular';
     font-weight : bold;
     margin-top: 100px;
 }
@@ -267,15 +264,15 @@
     font-weight: 600;
 }
 .at1>.grade_box>.grade:nth-child(2)>li:nth-child(1) {
-    background: rgb(143, 201, 187);
+    background: rgba(0, 0, 116, 0.237);
 }
 
 .at1>.grade_box>.grade:nth-child(3)>li:nth-child(1) {
-    background: rgb(125, 182, 169);
+    background: rgba(0, 0, 116, 0.478);
 }
 
 .at1>.grade_box>.grade:nth-child(4)>li:nth-child(1) {
-    background: rgb(111, 168, 155);
+    background: rgba(0, 0, 116, 0.649);
 }
 
 .at1>.grade_box>.grade:nth-child(1)>li:nth-child(2) {
@@ -305,7 +302,6 @@
     text-align: center;
     line-height: 70px;
     font-size: 2rem;
-    font-family: 'HallymMjo-Regular';
 font-weight : 700;
     margin-bottom: 50px;
 }
@@ -340,7 +336,7 @@ font-weight : 700;
 /* 포인트환급 내용안의 텍스트 */
 .at1>.p_change>.p_changeBox>div>p {
     text-align: center;
-    font-family: 'HallymMjo-Regular';
+    font-family: 'Gowun Batang';
     font-weight: 600;
 }
 
@@ -353,7 +349,7 @@ font-weight : 700;
 }
 
 .at1>.p_change>.p_changeBox>.arrow:nth-child(2) {
-    font-family: 'HallymMjo-Regular';
+    font-family: 'Gowun Batang';
     line-height: 600px;
 }
 
@@ -376,7 +372,7 @@ font-weight : 700;
 .at1>.p_change>.p_changeBox>.exchange>div>p {
     text-align: center;
     /* margin-top: -30px; */
-    font-family: 'HallymMjo-Regular';
+    font-family: 'Gowun Batang';
     font-weight: 600;
     /* border: 1px solid blue; */
 }

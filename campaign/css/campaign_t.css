@@ -38,9 +38,18 @@ nav>div:nth-child(6) {
     width:30%;
     height: 20%;
 }
+.at0>.wrap1{
+    top:100px;
+    height: 1100px;
+}
 .at0>.wrap1>.big_img{
-    height:40%;
+    height:60%;
+    width:80%;
 }
 .at0>.wrap1>.big_img_text{
-    top:670px;
+    top:750px;
+}
+.at0>.wrap1>.close{
+    top:50px;
+    left:90%;
 }

@@ -72,15 +72,19 @@ window.onload = function () {
     }
 
 
-    $(".main_text p:eq(0)").animate({
-        top: "17%",
-        opacity: 1
-    }, 900);
-
-    $(".main_text p:eq(1)").animate({
+    $(".main_text p").animate({
         top: "55%",
         opacity: 1
     }, 900);
+    $(".main_text div:eq(0)").animate({
+        top: "35%",
+        opacity: 1
+    }, 900);
+    $(".main_text div:eq(1)").animate({
+        top: "65%",
+        opacity: 1
+    }, 900);
+
 }
 
 

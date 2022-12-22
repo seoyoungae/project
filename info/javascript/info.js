@@ -1,6 +1,6 @@
 const dataA = {
-   "pcImgA": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png", "10.png", "11.png", "12.png", "13.png", "14.png", "15.png", "16.png", "17.png", "18.png", "19.png", "20.png", "21.png", "22.png", "23.png", "24.png", "25.png", "26.png", "27.png", "28.png", "29.png", "30.png"],
-   "moblieImgA": ["1m.png", "2m.png", "3m.png", "4m.png", "5m.png", "6m.png", "7m.png", "8m.png", "9m.png", "10m.png", "11m.png", "12m.png", "13m.png", "14m.png", "15m.png", "16m.png", "17m.png", "18m.png", "19m.png", "20m.png", "21m.png", "22m.png", "23m.png", "24m.png", "25m.png", "26m.png", "27m.png", "28m.png"]
+   "pcImgA": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png", "10.png", "11.png", "12.png", "13.png", "14.png", "15.png", "16.png", "17.png", "18.png", "19.png", "20.png", "21.png", "22.png", "23.png", "24.png", "25.png", "26.png", "27.png", "28.png" ,"29.png", "30.png"],
+   "moblieImgA": ["1m.png", "2m.png", "3m.png", "4m.png", "5m.png", "6m.png", "7m.png", "8m.png", "9m.png", "10m.png", "11m.png", "12m.png", "13m.png", "14m.png", "15m.png", "16m.png", "17m.png", "18m.png", "19m.png", "20m.png", "21m.png", "22m.png", "23m.png", "24m.png", "25m.png", "26m.png", "27m.png", "28m.png", "29.png", "30.png"]
 }
 let menu_m_close, menu_sub_m_home, menu_bar, menu_m;;
 window.onload = function () {

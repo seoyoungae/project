@@ -15,7 +15,7 @@
 /* 박스 전체 */
 .at0>.box {
     width: 80%;
-    height: 650px;
+    height: 750px;
     border: 0px solid black;
     margin: 0px auto;
 }
@@ -51,25 +51,30 @@
 /* 둘째줄 크기 */
 
 .at0>.box>ul>li:nth-child(2) {
-    height: 450px;
+    height:500px;
+    display: block;
     /* line-height: 400px; */
 }
 
 .at0>.box>ul>li:nth-child(2)>div:nth-child(1) {
-    line-height: 400px;
+    width:100%;
+    line-height: 50px;
+    text-align: center;
 }
 
 .at0>.box>ul>li:nth-child(2)>div:nth-child(2) {
-    width: 70%;
-    border: 0 px solid green;
+    width: 90%;
+    height: 450px;
+    margin-left:10%;
+    border: 0px solid green;
 
 }
 
 /* 내용의 입력부분 */
 .at0>.box>ul>li:nth-child(2)>div:nth-child(2)>input {
-    width: 70%;
+    width: 80%;
     height: 280px;
-    margin-left: -210px;
+    margin-left: -100px;
     margin-top: 20px;
     border: 1px solid #ccc;
     margin-bottom: 30px;
@@ -100,7 +105,7 @@
 
 /* 답변등록 */
 .at0>.box>ul>li:nth-child(3) {
-    height: 100px;
+    height: 150px;
     line-height: 1.75;
     align-items: center;
 }
