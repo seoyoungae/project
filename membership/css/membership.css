@@ -21,7 +21,7 @@
 .page>p {
     width: 33%;
     height: 100%;
-    border: 1px solid rgb(0, 0, 116);;
+    border: 1px solid #41826e;
     line-height: 70px;
     text-align: center;
     font-weight : 500;
@@ -30,7 +30,7 @@
 .page>p:nth-child(1) {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background: rgb(0, 0, 116);;
+    background: #41826e;
 }
 
 .page>p:nth-child(1) a {
@@ -141,7 +141,7 @@
     height: 50px;
     border: 0px solid black;
     border-radius: 20px;
-    background: rgb(0, 0, 116);;
+    background: #41826e;
     color: white;
     margin-right: 50px;
 }
@@ -264,15 +264,15 @@
     font-weight: 600;
 }
 .at1>.grade_box>.grade:nth-child(2)>li:nth-child(1) {
-    background: rgba(0, 0, 116, 0.237);
+    background: #66cc965d;
 }
 
 .at1>.grade_box>.grade:nth-child(3)>li:nth-child(1) {
-    background: rgba(0, 0, 116, 0.478);
+    background: #66cc96c5;
 }
 
 .at1>.grade_box>.grade:nth-child(4)>li:nth-child(1) {
-    background: rgba(0, 0, 116, 0.649);
+    background: #66cc96;
 }
 
 .at1>.grade_box>.grade:nth-child(1)>li:nth-child(2) {

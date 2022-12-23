@@ -18,7 +18,7 @@
 .main_text {
     position: absolute;
     top: 20%;
-    left: 45%;
+    left: 50%;
     width: 550px;
     height: 500px;
     border: 0px solid white;
@@ -59,7 +59,7 @@
     line-height: 50px;
     text-align: center;
     font-size: 1rem;
-    background: rgb(22, 22, 154);
+    background: #41826e;
     border-radius: 50px;
 }
 
@@ -223,7 +223,7 @@
 
 .review>.reviewImg {
     width: 65%;
-    background: url(../img/JR_01.png);
+    background: url(../img/JR_01.jpg);
     background-size: 100% 100%;
 }
 

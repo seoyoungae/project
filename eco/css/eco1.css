@@ -113,7 +113,6 @@
 }
 .at0>.ecoInfo1>.ecoLogoText>p:nth-child(1){
     height: 30%;
-    font-family: 'Gowun Batang';
     font-weight: 700;
     font-size: 1.5rem;
 }
@@ -150,7 +149,8 @@
 }   
 .at1 .at1_menu li:hover{
     margin-left:0px;
-    background:#ccc;
+    background:#5ead95;
+    color:white;
 }
 
 .at0>.ecoInfo1>.ecoInfoText1>.at_text1,

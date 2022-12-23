@@ -5,19 +5,19 @@ $(function () {
     $(".page_left").on("click", function () {
         $(".page p").css("background", "white");
         $(".page p a").css("color", "black");
-        $(".page_left").css("background", "rgb(0, 0, 116)");
+        $(".page_left").css("background", "#41826e");
         $(".page_left a").css("color", "white");
     })
     $(".page_middle").on("click", function () {
         $(".page p").css("background", "white");
         $(".page p a").css("color", "black");
-        $(".page_middle").css("background", "rgb(0, 0, 116)");
+        $(".page_middle").css("background", "#41826e");
         $(".page_middle a").css("color", "white");
     })
     $(".page_right").on("click", function () {
         $(".page p").css("background", "white");
         $(".page p a").css("color", "black");
-        $(".page_right").css("background", "rgb(0, 0, 116)");
+        $(".page_right").css("background", "#41826e");
         $(".page_right a").css("color", "white");
     })
 

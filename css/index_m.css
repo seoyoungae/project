@@ -10,6 +10,9 @@
 .hp_info{
     display:none;
 }
+.hp_info_an{
+    display: none;
+}
 nav {
     height: 50px;
     margin-top:px;

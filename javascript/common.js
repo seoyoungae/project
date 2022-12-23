@@ -58,7 +58,7 @@ $(function () {
     $(".sub").on("mouseover", function () {
         n = $(this).index();
         console.log(n);
-        $($(".menu div")[n]).css("border-bottom", "4px solid black")
+        $($(".menu div")[n]).css("border-bottom", "4px solid #41826e")
     })
     $(".sub").on("mouseout", function () {
         n = $(this).index();
@@ -67,7 +67,7 @@ $(function () {
     })
 
     $(".main_menu").on("mouseover", function () {
-        $(this).css("border-bottom", "4px solid black")
+        $(this).css("border-bottom", "4px solid #41826e")
     })
     $(".main_menu").on("mouseout", function () {
         $(this).css("border-bottom", "0px solid black")
