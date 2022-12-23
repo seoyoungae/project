@@ -21,6 +21,7 @@ const dataA = {
 };
 let mainImg, mainCamText, pdImgs, pdName, pdText, pdPrice;
 let reText, reData, noticeText, notictData;
+let w;
 window.onload = function () {
     mainImg = document.getElementsByClassName("main_img");
 
@@ -70,22 +71,59 @@ window.onload = function () {
         this["noData" + i] = document.getElementById("noData" + i);
         this["noData" + i].innerHTML = dataA.noticeDataA[i];
     }
+    if(w>1000){
+        $(".main_text p").animate({
+            top: "55%",
+            opacity: 1
+        }, 900);
+        $(".main_text div:eq(0)").animate({
+            top: "35%",
+            opacity: 1
+        }, 900);
+        $(".main_text div:eq(1)").animate({
+            top: "65%",
+            opacity: 1
+        }, 900);
+    }else if(w>700){
+        $(".main_text p").animate({
+            top: "45%",
+            opacity: 1
+        }, 900);
+        $(".main_text div:eq(0)").animate({
+            top: "35%",
+            opacity: 1
+        }, 900);
 
-
-    $(".main_text p").animate({
-        top: "55%",
-        opacity: 1
-    }, 900);
-    $(".main_text div:eq(0)").animate({
-        top: "35%",
-        opacity: 1
-    }, 900);
-    $(".main_text div:eq(1)").animate({
-        top: "65%",
-        opacity: 1
-    }, 900);
-
+    }
 }
+window.addEventListener("resize", function(){
+    w=window.innerWidth;
+    console.log(w);
+
+    if(1000>w>700){
+        $(".main_text p").animate({
+            top: "45%",
+            opacity: 1
+        }, 900);
+        $(".main_text div:eq(0)").animate({
+            top: "35%",
+            opacity: 1
+        }, 900);
+    } else if(w>1000){
+        $(".main_text p").animate({
+            top: "55%",
+            opacity: 1
+        }, 900);
+        $(".main_text div:eq(0)").animate({
+            top: "35%",
+            opacity: 1
+        }, 900);
+        $(".main_text div:eq(1)").animate({
+            top: "65%",
+            opacity: 1
+        }, 900);
+    }
+})
 
 
 $(function () {

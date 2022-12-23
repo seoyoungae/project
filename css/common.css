@@ -180,7 +180,6 @@ nav>.sub_menu>ul>li {
     border-radius: 50%;
     line-height: 50px;
     text-align: center;
-    font-family: 'Gowun Batang';
     cursor: pointer;
     font-size: 0.8rem;
 }
@@ -229,6 +228,7 @@ nav>.sub_menu>ul>li>a {
     margin: 0 auto;
     border: 0px solid rgb(94, 94, 94);
     display: flex;
+    font-size: 0.8rem;
 }
 
 .at2>.footer>.left {
@@ -259,7 +259,6 @@ nav>.sub_menu>ul>li>a {
     top:0; left:0; */
     width: 100%;
     height: 100%;
-
 }
 
 .side_menu_m {

@@ -5,7 +5,6 @@ const menuA = {
 let menu, main_menu, sub_menu, menu_bar, menu_m;
 let menu_m_close, menu_home, menu_sub_m_home;
 // let menu_m_home
-let w;
 
 $(function () {
     

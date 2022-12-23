@@ -37,27 +37,41 @@ nav>.menu_m {
 }
 
 .main_img {
-    background: url(/img/main_img_m.png);
+    background: url(/img/main_img_m.jpg);
     height: 300px;
     background-size: 100% 100%;
 }
-.main_text{
-    display:none;
-}
-/* .main_text{
-    top: 10%;
-    width:300px;
+.main_text {
+    position: relative;
+    top:35%;
+    left: 5%;
+    width: 350px;
     height: 200px;
-    font-size:2rem;
-    border: 1px solid red;
+    border: 0px solid white;
+    font-family: 'NanumSquareNeo-Variable';
+    font-size: 1rem;
+
 }
-.main_text p:nth-child(1){
-    display:none;
+.main_text p {
+    display: none;
 }
-.main_text p:nth-child(2){
-    top:-50%;
-    left:-80%;
-} */
+.main_text div:nth-child(1){
+    position: absolute;
+    top:60%;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    border: 0px solid white;
+    color: white;
+    opacity: 1;
+    
+    background: url(../img/main_text.png);
+    background-size: 100% 100%;
+}
+.main_text div:nth-child(3){
+    display: none;
+}
+
 .at0>p {
     font-size: 2rem;
 }
