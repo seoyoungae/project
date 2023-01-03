@@ -95,6 +95,10 @@ window.onload = function () {
         }, 900);
 
     }
+
+    $(".main_popup_close").on("click", function(){
+        $(".main_popup").hide();
+    })
 }
 window.addEventListener("resize", function(){
     w=window.innerWidth;
