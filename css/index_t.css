@@ -58,14 +58,13 @@ nav>div:nth-child(6) {
     background-size: 100% 100%;
 }
 .main_text div:nth-child(3){
-    top:65%;
-    left:55%;
+    top:60%;
+    left:45%;
     width:250px;
     height: 40px;
     line-height: 40px;
     text-align: center;
     font-size: 1rem;
-    background: rgb(22, 22, 154);
     border-radius: 50px;
     opacity: 1;
 }
@@ -89,20 +88,29 @@ nav>div:nth-child(6) {
 
 .at1>.pdInfo {
     width: 90%;
-    height: 900px;
+    height: 600px;
     margin: 0 auto;
 }
-
-.at1>.pdInfo>div>div {
-    width: 40%;
-    height: 300px;
-    border: 0px solid black;
+.at1>.pdInfo>li{
+    width:600%;
+}
+.at1>.pdInfo>li>div {
+    width: 50%;
+    height: 350px;
     margin-bottom: 120px;
 }
 
-.at1>.pdInfo>div>p {
+.at1>.pdInfo>li>p {
     width: 40%;
-    margin-bottom: 400px;
+    margin-top:100px;
+}
+.at1>.pd_left{
+    left:30px;
+    width:30px;
+}
+.at1>.pd_right{
+    left:90%;
+    width:30px;
 }
 
 .review,
@@ -163,4 +171,12 @@ nav>div:nth-child(6) {
     height: 200px;
     margin-left: -50px;
     margin-top:50px;
+}
+
+.hp_info_ani,
+.hp_info,
+.up,
+.msg,
+.call{
+    display: none;
 }

@@ -388,6 +388,38 @@ nav>.sub_menu>ul>li>a {
     cursor: pointer;
     transition: all 0.5s;
 }
+.at2>.msg{
+    position: fixed;
+    top:68%;
+    right:5%;
+    height: 50px;
+    width:50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #ffea00c0;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.at2>.call{
+    position: fixed;
+    top:59%;
+    right:5%;
+    height: 50px;
+    width:50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #01db8bac;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
 .hp_info{
     position: fixed;
     top:77%;

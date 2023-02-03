@@ -5,11 +5,11 @@ const dataA = {
         "한국에서도 11월부터 카페에서 1회용 컵을 사용하지 않고 텀블러를 사용 하는 것을 권장할 수 있도록 1회용 컵 사용 시에 300원을 지불하도록 지침을 바꿀 것으로 예상된다.",
         "플라스틱 컵은 사용하지 않고 굳이 1회용 컵을 사용한다면 차라리 종이컵을 사용하는게 낫다는 의견이 나오고 있다.",
         "1회용 컵을 사용하지 않음으로서 줄어드는 플라스틱 쓰레기의 양은 어마어마하기 때문에 이 캠페인에 동참하고 모두 지구를 지키기를 추천한다."],
-    "pdImgA": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
-    "pdNameA": ["어성초 카밍 토너", "리밸런싱 에멀전", "어성초 페이셜 미스트", "아크네 폼 클렌저"],
-    "pdTextA": ["스킨 부스터", "스킨 부스터", "카밍 스프레이", "어성초 폼"],
-    "pdPriceA": ["23000", "32000", "20000", "16000"],
-    "pdVolumeA": ["200ml", "200ml", "150ml", "150ml"],
+    "pdImgA": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg","6.jpg","7.jpg", "8.jpg", "9.jpg","10.jpg", "11.jpg", "12.jpg"],
+    "pdNameA": ["어성초 카밍 토너", "리밸런싱 에멀전", "어성초 페이셜 미스트", "아크네 폼 클렌저","카밍 페이셜 솝", "페이셜 솝 블루", "스테인레스 빨대", "고체 치약", "순면 손수건", "비건 곤약 김밥", "비건 마요네즈", "비건 양념갈비살"],
+    "pdTextA": ["스킨 부스터", "스킨 부스터", "카밍 스프레이", "어성초 폼", "어성초 스톤", "브릭", "스테인레스", "브릭", "순면", "식물성 재료로 만든 부담없는 한 끼", "깨끗하게 만든 비건 소스", "달콤한 비건 양념갈비살!"],
+    "pdPriceA": ["23000", "32000", "20000", "16000", "14000", "20000","3000", "5000", "2000","3800", "5280", "7180"],
+    "pdVolumeA": ["200ml", "200ml", "150ml", "150ml", "100g", "100g","20cm", "10g/10개", "30x30(cm)","220g", "270ml", "300g"],
     "reviewTextA": ["피부가 촉촉해졌어요bb", "수분이 가득한게 좋네요!!", "저는 그저 그런듯...", "재구매 했습니다 믿고 쓰는 아비브!", "처음 써보는데 기대되네요~"],
     "reviewDataA": ["2022.10.25", "2022.10.25", "2022.10.18", "2022.10.15", "2022.8.25"],
     "noticeTextA": ["설날 연휴 배송 공지 입니다.",
@@ -21,7 +21,7 @@ const dataA = {
 };
 let mainImg, mainCamText, pdImgs, pdName, pdText, pdPrice;
 let reText, reData, noticeText, notictData;
-let w;
+let w, pd_count=0, pd_left=0;
 window.onload = function () {
     mainImg = document.getElementsByClassName("main_img");
 
@@ -153,6 +153,27 @@ $(function () {
 
     $(".buyBtn").on("click", sell_func);
     $(".cartBtn").on("click", cart_func);
+
+    $(".pd_left").on("click", function(){
+        if(pd_count>0){
+            pd_left+=26;
+            $(".pdInfo>li").css({
+                "left": pd_left+"%"
+            })
+            pd_count--;
+        }
+    })
+
+    $(".pd_right").on("click", function(){
+        if(pd_count<8){
+            pd_left-=26;
+            $(".pdInfo>li").css({
+                "left": pd_left+"%"
+            })
+            pd_count++;
+        }
+
+    })
 
 })
 
